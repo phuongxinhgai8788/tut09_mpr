@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bookmarkFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BookMarkFragment"
+    android:background="@color/colorBackground">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome"
+        android:textSize="30sp"
+        android:textColor="@color/colorAccent"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="20dp">
+
+
+        <ImageView
+            android:id="@+id/baomoi"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/white_rectangle_background"
+            android:padding="8dp"
+            android:src="@drawable/baomoi" />
+
+            <ImageView
+                android:id="@+id/bluezone"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:padding="8dp"
+                android:src="@drawable/bluezone"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/white_rectangle_background"/>
+
+    </LinearLayout>
+        <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+            android:padding="20dp">
+        <ImageView
+            android:id="@+id/zingmp3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:padding="8dp"
+            android:src="@drawable/zingmp3"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/white_rectangle_background"/>
+        <ImageView
+            android:id="@+id/vn"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:padding="8dp"
+            android:src="@drawable/vnexpress"
+            android:background="@drawable/white_rectangle_background"/>
+
+    </LinearLayout>
+    </LinearLayout>
+
+
+
+</FrameLayout>
